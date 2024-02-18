@@ -138,8 +138,86 @@ img {
     border: none;
 }
 
-
 /*=============================*/
+/*============mob-menu===========*/
+
+.menu-mob {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #FCFCFC;
+    padding: 16px 24px 24px 16px;
+}
+
+.open-menu-info {
+    display: block;
+    background-color: transparent;
+    border: 50%;
+    border-radius: 4px;
+    width: 24px;
+    height: 24px;
+    margin-left: auto;
+    margin-bottom: 24px;
+}
+
+.mobil-nav {
+    margin-bottom: 168px;
+}
+
+.menu-mob-list {}
+
+.menu-mob-item {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.menu-mob-item:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.menu-mob-link {}
+
+.menu-mob-info {}
+
+.mob-info-item {}
+
+.mob-info-link {}
+
+.mob-social-icon {
+    display: flex;
+    gap: 40px;
+
+}
+
+.mob-social-list {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-color: #4D5AE5;
+}
+
+.link-mob-icon {
+    /*width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-color: #4D5AE5;*/
+}
+
+.mob-icon {
+    fill: #F4F4FD;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+}
+
+/*================================*/
 
 /*===========banner=============*/
 .section-banner {
@@ -1233,10 +1311,12 @@ img {
 
     .footer-form-container {
         margin-left: auto;
+        /*text-align: left;*/
     }
 
 
     .footer-form-text {
+        padding: 0;
         font-weight: 500;
     }
 
