@@ -1066,13 +1066,6 @@ img {
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/peoplepLan1x.jpg);
     }
 
-    .banner {
-        font-size: 56px;
-        line-height: 107%;
-        letter-spacing: 0.02em;
-        max-width: 496px;
-    }
-
     @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -1083,6 +1076,15 @@ img {
                 url(../images/peoplepLan2x.jpg);
         }
     }
+
+    .banner {
+        font-size: 56px;
+        line-height: 107%;
+        letter-spacing: 0.02em;
+        max-width: 496px;
+    }
+
+
 
     /*============================*/
 
@@ -1228,6 +1230,18 @@ img {
         padding-bottom: 188px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/people1x.jpg);
     }
+
+    @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .section-banner {
+            background-image:
+                linear-gradient(rgba(46, 47, 66, 0.70),
+                    rgba(46, 47, 66, 0.70)),
+                url(../images/people2x.jpg);
+        }
+    }
+
 
     /*=============================*/
 
@@ -1378,16 +1392,9 @@ img {
     }
 }
 
-@media screen and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .section-banner {
-        background-image:
-            linear-gradient(rgba(46, 47, 66, 0.70),
-                rgba(46, 47, 66, 0.70)),
-            url(../images/peoplemob2x.jpg);
-    }
-}
+
+
+
 
 @media screen and (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
