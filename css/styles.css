@@ -267,7 +267,7 @@ img {
 /*===========banner=============*/
 .section-banner {
     background-color: #2E2F42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/peoplemob@1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/peoplemob1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1063,7 +1063,7 @@ img {
     .section-banner {
         padding-top: 112px;
         padding-bottom: 112px;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/peoplepLan@1.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/peoplepLan1x.jpg);
     }
 
     .banner {
@@ -1080,7 +1080,7 @@ img {
             background-image:
                 linear-gradient(rgba(46, 47, 66, 0.70),
                     rgba(46, 47, 66, 0.70)),
-                url(../images/peoplepLan@2.jpg);
+                url(../images/peoplepLan2x.jpg);
         }
     }
 
@@ -1226,7 +1226,7 @@ img {
     .section-banner {
         padding-top: 188px;
         padding-bottom: 188px;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/people@1.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/people1x.jpg);
     }
 
     /*=============================*/
@@ -1385,7 +1385,7 @@ img {
         background-image:
             linear-gradient(rgba(46, 47, 66, 0.70),
                 rgba(46, 47, 66, 0.70)),
-            url(../images/peoplemob@2.jpg);
+            url(../images/peoplemob2x.jpg);
     }
 }
 
@@ -1396,6 +1396,6 @@ img {
         background-image:
             linear-gradient(rgba(46, 47, 66, 0.70),
                 rgba(46, 47, 66, 0.70)),
-            url(../images/people@2.jpg);
+            url(../images/peoplemob2x.jpg);
     }
 }
